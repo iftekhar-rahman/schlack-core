@@ -1,0 +1,56 @@
+
+
+.d-none{
+  display: none;
+}
+
+
+
+.service-thumb {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.services-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.single-service-item {
+  position: relative;
+}
+.service-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: #000000bd;
+  padding: 14px 15px 10px 15px;
+}
+.service-content a {
+  color: #fff;
+  display: block;
+}
+.service-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 0 0 10px;
+  color: #fff;
+}
+.service-content .learn-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0ABAB5;
+}
+.service-content .learn-btn i {
+  transform: rotate(-45deg);
+  position: relative;
+  bottom: -2px;
+  right: -5px;
+}
+
+
